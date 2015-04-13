@@ -1,0 +1,27 @@
+{
+  "name": "www",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A snazzy website to show off all the different transformers",
+  "keywords": [],
+  "dependencies": {
+    "acorn": "^1.0.3",
+    "express": "^4.12.3",
+    "github-basic": "^4.1.2",
+    "jade": "^1.9.2",
+    "promise": "^7.0.0",
+    "then-request": "^2.1.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstransformers/www.git"
+  },
+  "author": "Forbes Lindesay",
+  "license": "MIT"
+}

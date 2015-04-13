@@ -1,0 +1,11 @@
+.center {
+  text-align: center;
+}
+body {
+  font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.container {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
