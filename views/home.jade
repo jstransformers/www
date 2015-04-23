@@ -11,5 +11,5 @@ block content
     ul
       each transformer in transformers
         li
-          a(href="/jstransformer/" + transformer.name)= transformer.name
+          a(href=transformer.name + ".html")= transformer.name
           = ' - ' + transformer.description

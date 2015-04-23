@@ -6,17 +6,20 @@
   "keywords": [],
   "dependencies": {
     "acorn": "^1.0.3",
-    "express": "^4.12.3",
     "github-basic": "^4.1.2",
-    "jade": "^1.9.2",
+    "jstransformer": "0.0.2",
+    "jstransformer-cli": "0.0.1",
+    "jstransformer-jade": "0.0.3",
     "promise": "^7.0.0",
+    "rimraf": "^2.3.2",
     "then-request": "^2.1.1"
   },
   "devDependencies": {
     "mocha": "*"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha -R spec",
+    "build": "node ."
   },
   "repository": {
     "type": "git",
