@@ -9,7 +9,7 @@
     "express": "^4.12.3",
     "github-basic": "^4.1.2",
     "jade": "^1.9.2",
-    "promise": "^7.0.0",
+    "promise": "^7.0.4",
     "then-request": "^2.1.1"
   },
   "devDependencies": {
