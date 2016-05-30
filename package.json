@@ -5,7 +5,7 @@
   "description": "A snazzy website to show off all the different transformers",
   "keywords": [],
   "dependencies": {
-    "acorn": "^1.0.3",
+    "acorn": "^2.5.2",
     "express": "^4.12.3",
     "github-basic": "^4.1.2",
     "jade": "^1.9.2",
