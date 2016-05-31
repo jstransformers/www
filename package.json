@@ -10,7 +10,7 @@
     "github-basic": "^4.1.2",
     "jade": "^1.9.2",
     "promise": "^7.0.0",
-    "then-request": "^2.1.1"
+    "then-request": "^2.2.0"
   },
   "devDependencies": {
     "mocha": "^2.5.3"
