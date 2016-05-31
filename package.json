@@ -7,7 +7,7 @@
   "dependencies": {
     "acorn": "^3.1.0",
     "express": "^4.13.4",
-    "github-basic": "^4.1.2",
+    "github-basic": "^6.0.0",
     "jade": "^1.9.2",
     "promise": "^7.0.0",
     "then-request": "^2.2.0"
