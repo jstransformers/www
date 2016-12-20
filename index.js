@@ -3,8 +3,10 @@ var jstransformer = require('jstransformer');
 var jade = require('jstransformer')(require('jstransformer-jade'));
 var fs = require('fs');
 var rimraf = require('rimraf');
+var arraySort = require('array-sort');
 
 function write(transformers) {
+  transformers = arraySort(transformers, 'name')
   // Render the homepage.
   jade.renderFileAsync('views/home.jade', {
     pretty: true,

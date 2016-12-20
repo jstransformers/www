@@ -8,8 +8,10 @@ block content
       p Normalize the API of any source code transformation
     hr
     h2 Transformers
-    ul
+    table
       each transformer in transformers
-        li
-          a(href=transformer.name + ".html")= transformer.name
-          = ' - ' + transformer.description
+        tr
+          td
+            a(href=transformer.name + ".html")= transformer.name
+          td
+            span= transformer.description
