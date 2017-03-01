@@ -6,7 +6,7 @@
   "keywords": [],
   "dependencies": {
     "acorn": "^4.0.11",
-    "express": "^4.14.1",
+    "express": "^4.15.0",
     "github-basic": "^6.0.0",
     "jade": "^1.11.0",
     "promise": "^7.1.1",
