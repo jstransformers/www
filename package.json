@@ -5,7 +5,7 @@
   "description": "A snazzy website to show off all the different transformers",
   "keywords": [],
   "dependencies": {
-    "acorn": "^4.0.4",
+    "acorn": "^5.0.3",
     "array-sort": "^0.1.2",
     "github-basic": "^6.0.0",
     "jstransformer": "1.0.0",
@@ -16,7 +16,7 @@
     "then-request": "^2.2.0"
   },
   "devDependencies": {
-    "mocha": "^3.2.0"
+    "mocha": "^3.4.2"
   },
   "scripts": {
     "pretest": "npm run build",
